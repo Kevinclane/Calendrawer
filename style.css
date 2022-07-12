@@ -1,0 +1,53 @@
+.calendar-container {
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-auto-rows: auto;
+  border: 2px solid black;
+}
+
+.table-header-cell {
+  background-color: darkcyan;
+  min-height: 1rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.cell-0 {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  user-select: none;
+
+}
+
+.cell-1 {
+  background-color: rgb(213, 213, 213);
+  border: 1px solid black;
+  user-select: none;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.super-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.button {
+  cursor: pointer;
+}
