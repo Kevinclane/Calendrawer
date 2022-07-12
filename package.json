@@ -1,11 +1,11 @@
 {
-  "name": "calendartest",
+  "name": "calendrawer",
   "version": "1.0.0",
-  "description": "Early testing for Calendar NPM Package",
+  "description": "An interactive Calender rendering package.",
   "main": "app.js",
   "dependencies": {
-    "luxon": "^2.4.0",
-    "uuid": "^8.3.2"
+    "luxon": "^3.0.1",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,12 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kevinclane/calendarTest.git"
+    "url": "git+https://github.com/Kevinclane/Calendrawer.git"
   },
+  "keywords": [
+    "calendar",
+    "schedule"
+  ],
   "author": "Kevin Lane",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kevinclane/calendarTest/issues"
+    "url": "https://github.com/Kevinclane/Calendrawer/issues"
   },
-  "homepage": "https://github.com/Kevinclane/calendarTest#readme"
+  "homepage": "https://github.com/Kevinclane/Calendrawer#readme"
 }
